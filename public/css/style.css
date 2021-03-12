@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../public/image/background.png');
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 160px;
+    cursor: pointer;
+}
+
+
+
+.cart {
+    width: 20px;
+    cursor: pointer;
+}
+nav {
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.content h1 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+}
+.content p {
+    font-size: 20px;
+    color: #6a7199;
+}
+.content {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.content .btn {
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+.arrow-icons {
+    margin-top: 40px;
+    display: flex;
+}
+.navbar button {
+    color: black;
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.arrow-icons img {
+    width: 40px;
+    margin-right: 25px;
+}
+.feature {
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
+.bubble img {
+    width: 50px;
+    animation: buble 7s linear infinite;
+}
+.bubble {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+}
+@keyframes buble {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    
+    50% {
+        opacity: 1;
+    }
+    
+    70% {
+        opacity: 1;
+    }
+    
+    100% {
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+.bubble img:nth-child(1) {
+    animation-delay: 2s;
+}
+.bubble img:nth-child(2) {
+    animation-delay: 1s;
+}
+.bubble img :nth-child(3) {
+    animation-delay: 3.5s;
+}
+.bubble img :nth-child(4) {
+    animation-delay: 4s;
+}
+.bubble img:nth-child(5) {
+    animation-delay: 3s;
+}
+.bubble img:nth-child(6) {
+    animation-delay: 4s;
+}
+.bubble img:nth-child(7) {
+    animation-delay: 3.5s;
+}
