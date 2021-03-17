@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);
+/*@import url(https://fonts.googleapis.com/css?family=Nunito);
 @charset "UTF-8";
 
 /*!
@@ -6,7 +6,7 @@
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 
 :root {
   --blue: #3490dc;
@@ -10943,3 +10943,134 @@ a.text-dark:focus {
 }
 
 
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EBFBFA;
+}
+
+.container {
+    margin: 50px 400px;
+    width: 500px;
+    display: block;
+    border-style: solid;
+    border-color: #f8f8f8;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px grey;
+    background-color: white;
+}
+
+.card-header {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 50px;
+    background-color: white;
+}
+
+.card-body {
+    margin-left: 50px;
+    display: flex;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: white;
+}
+
+.card-body form,
+label,
+input {
+    background-color: white;
+    display: block;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.form-check-label,
+.form-check-input {
+    margin-top: 30px;
+    display: inline-block;
+    height: 40px;
+    width: auto;
+    color: #886DE5;
+}
+
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #e3342f;
+    background-color: white;
+}
+
+button {
+    height: 40px;
+    width: 300px;
+    margin-top: 20px;
+    display: block;
+    padding: 9px 25px;
+    background-color: #886DE5;
+    margin-left: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.forgot-link {
+    display: block;
+    margin-top: 20px;
+    margin-left: 130px;
+    background-color: white;
+}
+
+.form-group,
+.form-check,
+.email,
+.password,
+.btnvalid {
+    background-color: white;
+}
+
+input {
+    margin-top: 10px;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 5px;
+    height: 40px;
+    width: 350px;
+    background-color: white;
+}
+
+.forgot-link {
+    color: #886DE5;
+}
+
+.image {
+    display: flex;
+}
+
+img {
+    display: inline-block;
+    cursor: pointer;
+    height: 90px;
+    width: 90px;
+    margin-left: 20px;
+}
+
+.image h1 {
+    display: inline-block;
+}
