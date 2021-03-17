@@ -7,7 +7,7 @@
     <body>
         <div class="container">
             <div class="navbar">
-                <img src="{{ asset('image/logo.png') }}" class="logo">
+                <img src="{{ asset('image/jnec.png') }}" class="logo">
                 <nav>
                     <ul>
                         <li><a href="">home</a></li>
